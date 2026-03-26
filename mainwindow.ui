@@ -14,14 +14,20 @@
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QFrame" name="frame">
+   <widget class="MyFrame" name="frame">
     <property name="geometry">
      <rect>
       <x>200</x>
       <y>20</y>
       <width>800</width>
-      <height>640</height>
+      <height>620</height>
      </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
     </property>
     <property name="frameShape">
      <enum>QFrame::Shape::Box</enum>
@@ -43,9 +49,26 @@
      <height>25</height>
     </rect>
    </property>
+   <widget class="QMenu" name="menu_Arquivo">
+    <property name="title">
+     <string>&amp;Arquivo</string>
+    </property>
+   </widget>
+   <addaction name="menu_Arquivo"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
+ <customwidgets>
+  <customwidget>
+   <class>MyFrame</class>
+   <extends>QFrame</extends>
+   <header>myframe.h</header>
+   <container>1</container>
+   <slots>
+    <slot>mostrar()</slot>
+   </slots>
+  </customwidget>
+ </customwidgets>
  <resources/>
  <connections/>
 </ui>

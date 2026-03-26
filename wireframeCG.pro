@@ -8,10 +8,12 @@ CONFIG += c++17
 
 SOURCES += \
     main.cpp \
-    mainwindow.cpp
+    mainwindow.cpp \
+    myframe.cpp
 
 HEADERS += \
-    mainwindow.h
+    mainwindow.h \
+    myframe.h
 
 FORMS += \
     mainwindow.ui
