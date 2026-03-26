@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>600</height>
+    <width>1200</width>
+    <height>700</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,17 +17,20 @@
    <widget class="QFrame" name="frame">
     <property name="geometry">
      <rect>
-      <x>580</x>
-      <y>180</y>
-      <width>120</width>
-      <height>80</height>
+      <x>200</x>
+      <y>20</y>
+      <width>800</width>
+      <height>640</height>
      </rect>
     </property>
     <property name="frameShape">
-     <enum>QFrame::Shape::StyledPanel</enum>
+     <enum>QFrame::Shape::Box</enum>
     </property>
     <property name="frameShadow">
      <enum>QFrame::Shadow::Raised</enum>
+    </property>
+    <property name="lineWidth">
+     <number>1</number>
     </property>
    </widget>
   </widget>
@@ -36,7 +39,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>800</width>
+     <width>1200</width>
      <height>25</height>
     </rect>
    </property>
